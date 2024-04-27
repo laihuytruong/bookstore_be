@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: false }))
 // Middleware for passing request body
 app.use(
   cors({
-    origin: 'http://localhost:3000',
+    origin: 'http://localhost:5173',
     methods: ['GET', 'PUT', 'POST', 'DELETE'],
     allowedHeaders: ['Content-type'],
   })
